@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Épico Custom Javascript Code\n"
+"POT-Creation-Date: 2023-10-17 14:47-0300\n"
+"PO-Revision-Date: 2023-10-17 14:47-0300\n"
+"Last-Translator: Márcio Duarte <contato@uberfacil.com>\n"
+"Language-Team: Márcio Duarte <contato@uberfacil.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: epico-custom-js-code.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: epico-custom-js-code.php:63 epico-custom-js-code.php:64
+#: epico-custom-js-code.php:77
+msgid "Épico Custom Javascript Code"
+msgstr "Código Javascript personalizado do Épico"
+
+#: epico-custom-js-code.php:82
+msgid "Insert Javascript code in the “head” tag of the website:"
+msgstr "Insira o código Javascript na tag \"head\" do site:"
+
+#: epico-custom-js-code.php:90
+msgid "Insert Javascript code right after the opening of the “body” tag:"
+msgstr ""
+"Insira o código Javascript imediatamente após a abertura da tag “body”:"
+
+#: epico-custom-js-code.php:98
+msgid "Insert Javascript code right before the closing “body” tag:"
+msgstr ""
+"Insira o código Javascript imediatamente antes da tag de fechamento “body”:"
+
+#: epico-custom-js-code.php:108
+msgid "Remove the code from the database on plugin deactivation"
+msgstr "Remover o código do banco de dados na desativação do plugin."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://epico.studio"
+msgstr "https://epico.studio"
+
+#. Description of the plugin/theme
+msgid "Adds custom Javascript code to the site front-end."
+msgstr "Adiciona código Javascript personalizado ao front-end do site."
+
+#. Author of the plugin/theme
+msgid "Márcio Duarte"
+msgstr "Márcio Duarte"
+
+#~ msgid "Epico Custom Javascript Code"
+#~ msgstr "Código Javascript personalizado do Épico"
+
+#~ msgid "Mondo Header and Footer Javascript Code"
+#~ msgstr "Código Javascript do cabeçalho e rodapé do Mondo"
