@@ -46,9 +46,9 @@ class CustomJSCode {
     public function __construct() {
         add_action('admin_menu', [$this, 'add_submenu_page']);
         add_action('admin_post_epico_save_code', [$this, 'saveCode']);
-        add_action('wp_head', [$this, 'includeHeaderCode']);
-        add_action('wp_body_open', [$this, 'includeBodyCode']);
-        add_action('wp_footer', [$this, 'includeFooterCode']);
+        add_action('wp_head', [$this, 'includeHeaderCode'], -999); // Add it right after the start of the <head> tag.
+        add_action('wp_body_open', [$this, 'includeBodyCode'], -999);
+        add_action('wp_footer', [$this, 'includeFooterCode'], 999); // Add it right before the closing of the </body> tag.
         register_uninstall_hook(__FILE__, 'clearOptionsOnUninstallation');
         add_action('admin_enqueue_scripts', [$this, 'enqueueCodeMirror']);
         add_filter('safe_style_css', [$this, 'keepStyleProperties']);
