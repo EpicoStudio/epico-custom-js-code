@@ -3,7 +3,7 @@
  * Plugin Name: Épico Custom Javascript Code
  * Plugin URI: https://epico.studio
  * Description: Adds custom Javascript code to the site front-end.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: epico-custom-js-code
  * Author: Márcio Duarte
  * Author URI: https://epico.studio
